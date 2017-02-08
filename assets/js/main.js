@@ -432,7 +432,8 @@ var main = (function($) { var _ = {
 					// Slide.
 
 						// Create elements.
-	 						s.$slide = $('<div class="slide"><div class="caption"></div><div class="image"></div></div>');
+//removedcaption 	 						s.$slide = $('<div class="slide"><div class="caption"></div><div class="image"></div></div>');
+	 						s.$slide = $('<div class="slide"><div class="image"></div></div>');
 
 	 					// Image.
  							s.$slideImage = s.$slide.children('.image');
@@ -443,11 +444,11 @@ var main = (function($) { var _ = {
 		 							.css('background-position', ($thumbnail.data('position') || 'center'));
 
 						// Caption.
-							s.$slideCaption = s.$slide.find('.caption');
+//removedcaption 							s.$slideCaption = s.$slide.find('.caption');
 
 							// Move everything *except* the thumbnail itself to the caption.
-								$this.children().not($thumbnail)
-									.appendTo(s.$slideCaption);
+//removedcaption 								$this.children().not($thumbnail)
+//removedcaption 									.appendTo(s.$slideCaption);
 
 					// Preload?
 						if (_.settings.preload) {
