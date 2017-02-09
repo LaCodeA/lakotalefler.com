@@ -71,22 +71,17 @@ $(document).ready(function() {
 		}
 	];
 
-	var thumbNails = $('#thumbnails');
+	var mainElement = $('#main');
 	for(var i = 0; i < photos.length ; ++i) {
 		var photo = photos[i];
-		// photo.title = photo.title ? photo.title : '&nbsp;';
-		// photo.text = photo.text ? photo.text : '&nbsp;';
-		photo.title = '';
-		photo.text = '';
-		var elementHTML = 
-			"<article>" + 
-				"<a class=\"thumbnail\" href=\"images/fulls/" + photo.name + "\" data-position=\"left center\">" + 
-					"<img src=\"images/thumbs/" + photo.name + "\" alt=\"\"/>" + 
-				"</a>" + 
-				"<h2>" + photo.title + "</h2>" +
-				"<p>" + photo.text + "</p>" +
-				"</article>";
-		thumbNails.append(elementHTML);
+		var htmlElement = 
+		mainElement.append(
+			"<article class='thumb'>" +
+				"<a href='images/fulls/" + photo.name + "' class='image swipebox'>" +
+				// "<a href='images/fulls/" + photo.name + "' class='image swipebox' title='" + photo.title + "'>" +
+					"<img src='images/thumbs/" + photo.name + "'/>" +
+				"</a>" +
+			"</article>");
 	}
+
 });
-						

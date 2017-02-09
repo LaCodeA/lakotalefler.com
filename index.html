@@ -3,51 +3,108 @@
 	<head>
 		<title>Lakota Lefler</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		<!-- <link rel="icon" href="{{ "favicon.ico" | absURL }}"> -->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="assets/css/my.css" />
+		<link rel="stylesheet" href="assets/css/swipebox.min.css" />
 	</head>
-	<body class="is-loading-0 is-loading-1 is-loading-2">
+	<body>
 
-		<!-- Main -->
-			<div id="main">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
-						<h1>Lakota Lefler</h1>
-						<ul class="icons">
-							<li><a href="https://www.instagram.com/lakota.lefler/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://www.facebook.com/lakota.lefler" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="mailto:lakota.lefelr@gmail.com" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
+						<h1>
+							<a href="#footer">
+								<strong>Lakota Lefler</strong>
+							</a>
+						</h1>
+						<nav>
+							<ul>
+								<li><a href="#footer" class="icon fa-info-circle">About</a></li>
+							</ul>
+						</nav>
 					</header>
 
-				<!-- Thumbnail -->
-					<section id="thumbnails">
-					</section>
+				<!-- Main -->
+					<div id="main">
+					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Lakota Lefler</li>
-						</ul>
+					<footer id="footer" class="panel">
+						<div class="inner split">
+							<div>
+								<section>
+									<p>
+										I live in Denver, Colorado <br>
+										&nbsp; 6' 2"<br>
+										&nbsp; 175 lb<br>
+										&nbsp; 40R/L suit<br>
+										&nbsp; 32" waist/inseem<br>
+										&nbsp; 10.5(us) shoes<br>
+										&nbsp; <a href="http://www.nxtmodel.com/profile/lakota-lefler/"> nxt | MODEL</a>
+									</p>
+								</section>
+								<section>
+									<ul class="icons">
+										<li><a href="https://www.facebook.com/lakota.lefler" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.instagram.com/lakota.lefler" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									</ul>
+								</section>
+								<p class="copyright">&copy; Lakota Lefler</p>
+							</div>
+							<div>
+								<section>
+									<h2>Get in touch</h2>
+									<form id="email_form" method="post">
+										<div class="field half first">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="text" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+										</div>
+										<input type="text" name="_gotcha" style="display:none" />
+										<ul class="actions">
+											<li><input type="submit" value="Send" class="special" /></li>
+											<li><input type="reset" value="Reset" id="email_form_reset"/></li>
+										</ul>
+									</form>
+								</section>
+								<div id="email_loading"></div>
+							</div>
+						</div>
 					</footer>
 
 			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/photo_loader.js"></script>
 			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/pictures.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/my.js"></script>
+			<script src="assets/js/jquery.swipebox.min.js"></script>
+
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-77565130-1', 'auto');
+			  ga('send', 'pageview');
+			</script>
 
 	</body>
 </html>

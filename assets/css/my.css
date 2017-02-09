@@ -1,0 +1,33 @@
+#model-mayhem-icon {
+  font-size: 1.5em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.email_sending {
+  color: #31708f
+}
+
+.email_success {
+  color: #3c763d;
+}
+
+.email_fail {
+  color: #a94442;
+}
+
+body.content-active {
+  height: 100%;
+  overflow: hidden;
+}
+
+#swipebox-title {
+  color: grey;
+}
+
+.thumb {
+	border: 1px solid rgb(31, 34, 36);
+}
+
+.email_invalid {
+	border-radius: 5px; border:#a94442 1px solid !important;
+}
