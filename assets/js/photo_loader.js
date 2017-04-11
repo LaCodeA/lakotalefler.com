@@ -10,6 +10,9 @@ $(document).ready(function() {
 		  name : 'j_edwards.jpg'
 		},
 		{
+		  name : 'rill.jpg'
+		},
+		{
 		  name : 'anderson_gonzalez.jpg'
 		},
 		{
