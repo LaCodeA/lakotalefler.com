@@ -1,11 +1,16 @@
 $(document).ready(function() {
 	var photos = [
 		{
-		  name : 'anderson_gonzalez.jpg'
+		  name : 'ashli_hara.jpg'
 		},
 		{
-		  name : 'nicole_york_4.jpg',
-		  title : 'Nicole York'
+		  name : 'robins_bath.jpg'
+		},
+		{
+		  name : 'j_edwards.jpg'
+		},
+		{
+		  name : 'anderson_gonzalez.jpg'
 		},
 		{
 		  name : 'lola_littenberg_3.jpg',
@@ -41,7 +46,8 @@ $(document).ready(function() {
 		  title : 'Nicole York'
 		},
 		{
-		  name : 'blanc_wedding.jpg'
+		  name : 'nicole_york_4.jpg',
+		  title : 'Nicole York'
 		},
 		{
 		  name : 'jgallahue_bike.jpg',
@@ -56,6 +62,9 @@ $(document).ready(function() {
 		},
 		{
 		  name : 'talya_vylyt.jpg'
+		},
+		{
+		  name : 'blanc_wedding.jpg'
 		},
 		{
 		  name : 'trevor_gass.jpg'
