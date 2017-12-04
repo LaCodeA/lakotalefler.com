@@ -1,85 +1,34 @@
 $(document).ready(function() {
 	var photos = [
 		{
-		  name : 'ashli_hara.jpg'
+		  name : 'miller_2.png'
 		},
 		{
-		  name : 'robins_bath.jpg'
+		  name : 'hernandez_1.png'
 		},
 		{
-		  name : 'j_edwards.jpg'
+		  name : 'schaefer_1.png'
 		},
 		{
-		  name : 'rill.jpg'
+		  name : 'rill_1.png'
 		},
 		{
-		  name : 'anderson_gonzalez.jpg'
+		  name : 'york_1.png'
 		},
 		{
-		  name : 'lola_littenberg_3.jpg',
-		  title : 'Lola Littenberg'
+		  name : 'robins_1.png'
 		},
 		{
-		  name : 'robins_photography_equillibrium.jpg'
+		  name : 'hara_1.png'
 		},
 		{
-		  name : 'nicole_york_1.jpg',
-		  title : 'Nicole York'
+		  name : 'lola_1.png'
 		},
 		{
-		  name : 'robins_2.jpg'
+		  name : 'robins_2.png'
 		},
 		{
-		  name : 'carlos_carreon.jpg',
-		  title : 'Kevin Alexander'
-		},
-		{
-		  name : 'nicole_york_3.jpg',
-		  title : 'Nicole York'
-		},
-		{
-		  name : 'lola_littenberg_2.jpg',
-		  title : 'Lola Littenberg'
-		},
-		{
-		  name : 'r4photography.jpg'
-		},
-		{
-		  name : 'nicole_york_2.jpg',
-		  title : 'Nicole York'
-		},
-		{
-		  name : 'nicole_york_4.jpg',
-		  title : 'Nicole York'
-		},
-		{
-		  name : 'jgallahue_bike.jpg',
-		  title : 'Erin Root'
-		},
-		{
-		  name : 'lola_littenberg_1.jpg',
-		  title : 'Lola Littenberg'
-		},
-		{
-		  name : 'robins_1.jpg'
-		},
-		{
-		  name : 'talya_vylyt.jpg'
-		},
-		{
-		  name : 'blanc_wedding.jpg'
-		},
-		{
-		  name : 'trevor_gass.jpg'
-		},
-		{
-		  name : 'robins_3.jpg'
-		},
-		{
-		  name : 'royal_outerwear_runway.jpg'
-		},
-		{
-		  name : 'robins_4.jpg'
+		  name : 'hernandez_2.png'
 		}
 	];
 
