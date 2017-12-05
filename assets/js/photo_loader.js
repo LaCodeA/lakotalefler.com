@@ -1,31 +1,31 @@
 $(document).ready(function() {
 	var photos = [
 		{
-		  name : 'miller_2.jpg'
+		  name : 'hara_1.jpg'
 		},
 		{
 		  name : 'hernandez_1.jpg'
 		},
 		{
-		  name : 'schaefer_1.jpg'
+		  name : 'robins_1.jpg'
 		},
 		{
 		  name : 'rill_1.jpg'
 		},
 		{
-		  name : 'york_1.jpg'
-		},
-		{
-		  name : 'robins_1.jpg'
-		},
-		{
-		  name : 'hara_1.jpg'
+		  name : 'schaefer_1.jpg'
 		},
 		{
 		  name : 'lola_1.jpg'
 		},
 		{
-		  name : 'robins_2.jpg'
+		  name : 'miller_2.jpg'
+		},
+		{
+		  name : 'york_1.jpg'
+		},
+		{
+		  name : 'light_1.jpg'
 		},
 		{
 		  name : 'hernandez_2.jpg'
