@@ -1,34 +1,34 @@
 $(document).ready(function() {
 	var photos = [
 		{
-		  name : 'miller_2.png'
+		  name : 'miller_2.jpg'
 		},
 		{
-		  name : 'hernandez_1.png'
+		  name : 'hernandez_1.jpg'
 		},
 		{
-		  name : 'schaefer_1.png'
+		  name : 'schaefer_1.jpg'
 		},
 		{
-		  name : 'rill_1.png'
+		  name : 'rill_1.jpg'
 		},
 		{
-		  name : 'york_1.png'
+		  name : 'york_1.jpg'
 		},
 		{
-		  name : 'robins_1.png'
+		  name : 'robins_1.jpg'
 		},
 		{
-		  name : 'hara_1.png'
+		  name : 'hara_1.jpg'
 		},
 		{
-		  name : 'lola_1.png'
+		  name : 'lola_1.jpg'
 		},
 		{
-		  name : 'robins_2.png'
+		  name : 'robins_2.jpg'
 		},
 		{
-		  name : 'hernandez_2.png'
+		  name : 'hernandez_2.jpg'
 		}
 	];
 
